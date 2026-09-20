@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Generator" content="Microsoft Word 15 (filtered)">
+    <title>成都理工大学学士学位论文（设计）开题报告</title>
+    <style>
+        <!--
+        /* Font Definitions */
+        @font-face {
+            font-family: 宋体;
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: 黑体;
+            panose-1: 2 1 6 9 6 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "Cambria Math";
+            panose-1: 2 4 5 3 5 4 6 3 2 4;
+        }
+
+        @font-face {
+            font-family: 等线;
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "\@宋体";
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "\@等线";
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+
+        @font-face {
+            font-family: "\@黑体";
+            panose-1: 2 1 6 0 3 1 1 1 1 1;
+        }
+        /* Style Definitions */
+        p.MsoNormal, li.MsoNormal, div.MsoNormal {
+            margin: 0cm;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            line-height: 150%;
+            font-size: 12.0pt;
+            font-family: 等线;
+        }
+
+        .MsoChpDefault {
+            font-size: 10.0pt;
+        }
+        /* Page Definitions */
+        @page WordSection1 {
+            size: 595.3pt 841.9pt;
+            margin: 72.0pt 90.0pt 72.0pt 90.0pt;
+            layout-grid: 15.6pt;
+        }
+
+        div.WordSection1 {
+            page: WordSection1;
+        }
+        -->
+    </style>
+
+</head>
+
+<body lang="ZH-CN" style='word-wrap: break-word; text-justify-trim: punctuation'>
+
+    <div class="WordSection1" style='layout-grid: 15.6pt'>
+
+        <p class="MsoNormal" align="center" style='text-align: center; layout-grid-mode: char'>
+            <span
+                style='font-size: 16.0pt; line-height: 150%; font-family: 黑体'>成</span><span
+                    style='font-size: 16.0pt; line-height: 150%'> </span><span style='font-size: 16.0pt; line-height: 150%; font-family: 黑体'>都</span><span style='font-size: 16.0pt; line-height: 150%'> </span><span style='font-size: 16.0pt; line-height: 150%; font-family: 黑体'>理</span><span style='font-size: 16.0pt; line-height: 150%'> </span><span
+                        style='font-size: 16.0pt; line-height: 150%; font-family: 黑体'>工</span><span
+                            style='font-size: 16.0pt; line-height: 150%'> </span><span style='font-size: 16.0pt; line-height: 150%; font-family: 黑体'>大</span><span style='font-size: 16.0pt; line-height: 150%'> </span><span style='font-size: 16.0pt; line-height: 150%; font-family: 黑体'>学</span>
+        </p>
+
+        <p class="MsoNormal" align="center" style='text-align: center; layout-grid-mode: char'>
+            <span
+                style='font-size: 18.0pt; line-height: 150%; font-family: 黑体'>学士学位论文（设计）开题报告</span>
+        </p>
+
+        <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0"
+            style='border-collapse: collapse'>
+            <tr style='height: 25.45pt'>
+                <td width="84" style='width: 63.35pt; border: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 25.45pt'>
+                    <p class="MsoNormal" style='line-height: 130%'><span style='font-family: 宋体'>题目名称</span></p>
+                </td>
+                <td width="468" colspan="8" style='width: 350.95pt; border-top: solid windowtext 1.0pt; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 25.45pt'>
+                    <p class="MsoNormal" align="left" style='text-align: left; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>基于条件生成对抗网络的多模态岩相语义图像合成方法</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="84" style='width: 63.35pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>学生姓名</span>
+                    </p>
+                </td>
+                <td width="76" colspan="2" style='width: 56.65pt; border: solid windowtext 1.0pt; border-left: none; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>高宇杰</span>
+                    </p>
+                </td>
+                <td width="105" style='width: 78.75pt; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>学生学号</span>
+                    </p>
+                </td>
+                <td width="112" colspan="2" style='width: 83.8pt; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            lang="EN-US" style='font-family: 宋体'>202119120412</span>
+                    </p>
+                </td>
+                <td width="88" colspan="2" style='width: 65.85pt; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>专业名称</span>
+                    </p>
+                </td>
+                <td width="88" style='width: 65.9pt; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>物联网工程</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="84" style='width: 63.35pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>导师姓名</span>
+                    </p>
+                </td>
+                <td width="76" colspan="2" style='width: 56.65pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>曾维</span>
+                    </p>
+                </td>
+                <td width="105" style='width: 78.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>职称</span>
+                    </p>
+                </td>
+                <td width="112" colspan="2" style='width: 83.8pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>教授</span>
+                    </p>
+                </td>
+                <td width="88" colspan="2" style='width: 65.85pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>论文研究方向</span>
+                    </p>
+                </td>
+                <td width="88" style='width: 65.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体; '>图像生成</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="84" style='width: 63.35pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>论文类型</span>
+                    </p>
+                </td>
+                <td width="76" colspan="2" style='width: 56.65pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体; '>毕业设计</span>
+                    </p>
+                </td>
+                <td width="105" style='width: 78.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>论文选题来源</span>
+                    </p>
+                </td>
+                <td width="112" colspan="2" style='width: 83.8pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体;'>学校自选项目</span>
+                    </p>
+                </td>
+                <td width="88" colspan="2" style='width: 65.85pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体'>论文撰写语种</span>
+                    </p>
+                </td>
+                <td width="88" style='width: 65.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 0cm 0cm 0cm; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center; line-height: 130%'>
+                        <span
+                            style='font-family: 宋体; '>中文</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 120.05pt'>
+                <td width="552" colspan="9" valign="top" style='width: 414.3pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 120.05pt'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>1.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>主要研究内容、预期成果（鼓励有创新点）：</span>
+                    </p>
+                    <p class="MsoNormal" align="left" style='text-align: left; line-height: normal'>
+                        <span
+                            lang="EN-US" style='font-family: 宋体'><p style="margin-left:0.0000pt;text-indent:21.0000pt;">	基于深度学习的岩石薄片图像识别是地球科学领域的重要研究方向，但长久以来面临着数据获取困难、标注成本高昂以及复杂特征难以建模等问题。随着深度学习的发展，条件生成对抗网络在图像合成领域展现出强大的潜力。在岩石薄片语义图像合成中，利用该技术有望解决上游数据集缺失带来的困扰。</p><p style="margin-left:0.0000pt;text-indent:21.0000pt;">	本项目旨在设计一种基于条件生成对抗网络的模型，针对岩石薄片图像的特点，优化网络结构和训练方法，使其能够从语义标签图中生成高质量、符合地质特征的岩石薄片图像。具体包括：深入研究岩石薄片图像的结构特征、纹理信息以及矿物光学特性，建立更完善的语义标签系统，有效编码矿物颗粒的关键信息；改进生成对抗网络的架构，结合空间自适应归一化等技术，增强模型对岩石薄片图像细节的生成能力，解决显微结构与宏观矿物配比失衡、光学特性表征不足等问题；融合地质先验知识，建立适用于岩石薄片生成任务的量化评估体系，用于准确评价生成图像的地质属性合规性。这对于地质研究、矿物成分鉴定以及沉积环境解译等工作的高效开展具有重要意义。</p><p style="margin-left:0.0000pt;text-indent:21.0000pt;">	创新点：语义标签系统创新。构建更精细的语义标签系统，不仅涵盖矿物类别，还对同类型矿物的纹理结构和颜色特征差异进行有效编码，使模型能更准确地捕捉和生成矿物颗粒的细节。</p><p style="margin-left:0.0000pt;text-indent:21.0000pt;">	网络架构改进：在条件生成对抗网络中创新性地融合多种先进技术，如将空间自适应归一化与自注意力机制有机结合，在提升模型对长程依赖建模能力的同时，确保各层特征与输入语义精准对齐，有效解决岩石薄片图像生成中的结构和纹理问题。</p><p style="margin-left:0.0000pt;text-indent:21.0000pt;">	评估体系创新：打破传统计算机视觉评估指标的局限，将地质先验知识深度融入评估体系，设计出针对岩石薄片生成任务的量化评价标准，实现对生成图像地质属性的科学、准确评估。</p></span>
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr style='height: 120.05pt'>
+                <td width="552" colspan="9" valign="top" style='width: 414.3pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 120.05pt'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>2.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>拟采用的研究思路（研究方法、技术路线、可行性论证）：</span>
+                    </p>
+                    <p class="MsoNormal" align="left" style='text-align: left; line-height: normal'>
+                        <span
+                            lang="EN-US" style='font-family: 宋体'><p>	研究方法：</p><p>	（1）文献综述：全面查阅与条件生成对抗网络、岩石薄片图像分析、地质特征量化等相关的文献资料，了解该领域的研究现状、前沿技术和现有方法的优缺点，为后续研究提供理论基础和技术参考。</p><p>	（2）实证研究：深入研究相关理论知识，参考已有的岩石薄片图像生成和处理的代码实现，设计并开发基于条件生成对抗网络的岩石薄片图像生成模型。通过大量实验对模型进行训练、优化和测试，验证模型的有效性和可行性。</p><p>	（3）地质专家咨询：与地质领域的专家进行沟通和交流，获取他们对岩石薄片图像特征和地质属性的专业见解，将地质先验知识融入到模型设计和评估体系中。</p><p>	技术路线：</p><p>	（1）数据收集与预处理：收集大量不同类型、不同地质环境下的岩石薄片图像数据，确保数据的多样性和代表性。对收集到的图像进行预处理，包括图像去噪、增强、归一化等操作，以提高图像质量。同时，建立精细的语义标签系统，对岩石薄片图像中的矿物颗粒、纹理、结构等特征进行标注。</p><p>	（2）模型结构设计：根据岩石薄片图像的特点和研究目标，确定条件生成对抗网络的整体架构。结合空间自适应归一化、金字塔结构等技术，优化生成器和判别器的结构，提高模型对岩石薄片图像细节的生成能力。</p><p>	（3）特征提取与编码：采用多种先进的特征提取方法，如卷积神经网络（CNN）、残差网络（ResNet）等，对岩石薄片图像中的矿物颗粒形状、纹理、光学特征等进行提取和编码。将语义标签信息融入到特征编码过程中，使模型能够更好地理解和利用输入的语义信息。</p><p>	<br /></p><p>	<span>（</span><span>4）特征融合与生成：对提取的特征进行融合处理，结合地质先验知识，通过生成器将融合后的特征解码为岩石薄片图像。在生成过程中，利用空间自适应归一化技术，确保生成的图像在不同区域和尺度上都能准确反映岩石薄片的特征。</span> </p><p>	<span>（</span><span>5）模型训练与优化：使用收集到的岩石薄片图像数据集对模型进行训练，采用监督学习方法，结合判别器的反馈，不断优化生成器的性能。在训练过程中，引入评估指标，对生成的图像进行实时评估和反馈，进一步优化模型的生成效果。</span> </p><p>	可行性论证：</p><p>	<span>（</span><span>1）技术基础：条件生成对抗网络在图像合成领域已经取得了显著的成果，相关的理论和技术已经相对成熟。同时，卷积神经网络等特征提取方法在岩石薄片图像分析中也有一定的应用基础，为模型的设计和实现提供了技术支持。</span> </p><p>	<span>（</span><span>2）应用需求：岩石薄片图像的生成和分析在地质研究、矿物勘探等领域具有重要的应用需求，本项目的研究成果有望为这些领域提供更有效的技术手段和方法，具有广阔的应用前</span>景。<span><br /></span> </p><p>	<br /></p></span>
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr style='height: 133.85pt'>
+                <td width="552" colspan="9" valign="top" style='width: 414.3pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 133.85pt'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>3.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>现有工作基础（毕业实习、资料收集情况及空间设备仪器条件等）：</span>
+                    </p>
+                    <p class="MsoNormal" align="left" style='text-align: left; line-height: normal'>
+                        <span
+                            lang="EN-US" style='font-family: 宋体'><p>	<span>（</span><span>1）</span>有过地球科学领域相关的计算机视觉项目经验，发表过相关论文。</p><p>	<span>（</span><span>2）理解现有效果较好的已投入应用的模型思路结构，并有创新思路。</span></p><p>	<span>（</span><span>3）研读了相关领域的论文、期刊等，并对模型的大致结构有</span>所理解。</p></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 120.2pt'>
+                <td width="552" colspan="9" valign="top" style='width: 414.3pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 120.2pt'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>4.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>主要参考文献目录及文献综述：</span>
+                    </p>
+                    <p class="MsoNormal" align="left" style='text-align: left; line-height: normal'>
+                        <span
+                            lang="EN-US" style='font-family: 宋体'><p>	<span>周永章</span>,肖凡.管窥人工智能与大数据地球科学研究新进展[J].地学前缘,2024,31(04):1-6.DOI:10.13745/j.esf.sf.2024.6.99.</p><p>	<span>王丽媛</span>,刘红岐,程超,等.基于深度学习的测井岩相智能识别方法研究进展[J/OL].地球物理学进展,1-16[2025-03-27].http://kns.cnki.net/kcms/detail/11.2982.P.20241205.1243.076.html.</p><p>	<span>姜枫</span>,顾庆,郝慧珍,等.基于语义特征提取的砂岩薄片图像颗粒分割方法[J].中国科学:信息科学,2020,50(01):109-127.</p><p>	Kingma, D.P., &amp; Welling, M. (2013). Auto-Encoding Variational Bayes.&nbsp;CoRR, abs/1312.6114.</p><p>	Goodfellow, I.J., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A.C., &amp; Bengio, Y. (2021). Generative Adversarial Networks.&nbsp;2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT), 1-7.</p><p>	Dhariwal, P., &amp; Nichol, A. (2021). Diffusion Models Beat GANs on Image Synthesis.&nbsp;ArXiv, abs/2105.05233.</p><p>	Mirza, M., &amp; Osindero, S. (2014). Conditional Generative Adversarial Nets.&nbsp;ArXiv, abs/1411.1784.</p><p>	<span>江李铠</span>,王国中,赵海武.基于条件生成式对抗网络的高质量动态实时渲染方法[J].上海工程技术大学学报,2024,38(04):451-457.</p><p>	<span>刘少鹏</span>,赵慧民,洪佳明,等.面向医学图像生成的鲁棒条件生成对抗网络[J].电子学报,2023,51(02):427-437.</p><p>	<span>张婷</span>,赵杏,陈文欣.基于条件生成对抗网络的图像去雾方法[J].计算机应用,2021,41(S2):248-253.</p><p>	Curtò, J.D., Zarza, I.C., Torre, F.D., King, I., &amp; Lyu, M.R. (2017). High-Resolution Deep Convolutional Generative Adversarial Networks.&nbsp;ArXiv, abs/1711.06491.</p><p>	Zhuang, F., Qi, Z., Duan, K., Xi, D., Zhu, Y., Zhu, H., Xiong, H., &amp; He, Q. (2019). A Comprehensive Survey on Transfer Learning.&nbsp;Proceedings of the IEEE, 109, 43-76.</p><p>	Zhou, Z. (2018). A brief introduction to weakly supervised learning.&nbsp;National Science Review, 5, 44-53.</p><p>	He, K., Fan, H., Wu, Y., Xie, S., &amp; Girshick, R.B. (2019). Momentum Contrast for Unsupervised Visual Representation Learning.&nbsp;2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 9726-9735.</p><p>	Kabir, H. D., Khanam, S., Khozeimeh, F., Khosravi, A., Mondal, S. K., Nahavandi, S., &amp; Acharya, U. R. (2022). Aleatory-aware deep uncertainty quantification for transfer learning.&nbsp;Computers in Biology and Medicine,&nbsp;143, 105246.</p><p>	Kwon, G., &amp; Ye, J. C. (2022). Clipstyler: Image style transfer with a single text condition. In&nbsp;Proceedings of the IEEE/CVF conference on computer vision and pattern recognition&nbsp;(pp. 18062-18071).</p><p>	Zhuang, Y., Hou, B., Mathai, T. S., Mukherjee, P., Kim, B., &amp; Summers, R. M. (2023, October). Semantic image synthesis for abdominal ct. In&nbsp;International Conference on Medical Image Computing and Computer-Assisted Intervention&nbsp;(pp. 214-224). Cham: Springer Nature Switzerland.</p><p>	Mosser, L., Dubrule, O., &amp; Blunt, M. J. (2017). Reconstruction of three-dimensional porous media using generative adversarial neural networks.&nbsp;Physical Review E,&nbsp;96(4), 043309.</p><p>	Song, S., Mukerji, T., &amp; Hou, J. (2021). Geological facies modeling based on progressive growing of generative adversarial networks (GANs).&nbsp;Computational Geosciences,&nbsp;25, 1251-1273.</p><p>	Jo, H., Pan, W., Santos, J. E., Jung, H., &amp; Pyrcz, M. J. (2021). Machine learning assisted history matching for a deepwater lobe system.&nbsp;Journal of Petroleum Science and Engineering,&nbsp;207, 109086.</p><p>	Koeshidayatullah, A., Morsilli, M., Lehrmann, D. J., Al-Ramadan, K., &amp; Payne, J. L. (2020). Fully automated carbonate petrography using deep convolutional neural networks.&nbsp;Marine and Petroleum Geology,&nbsp;122, 104687.</p><p>	Niu, Y., Wang, Y. D., Mostaghimi, P., Swietojanski, P., &amp; Armstrong, R. T. (2020). An innovative application of generative adversarial networks for physically accurate rock images with an unprecedented field of view.&nbsp;Geophysical Research Letters,&nbsp;47(23), e2020GL089029.</p><p>	Nanjo, T., &amp; Tanaka, S. (2020, January). Carbonate lithology identification with generative adversarial networks. In&nbsp;International Petroleum Technology Conference&nbsp;(p. D023S149R002). IPTC.</p><p>	Radford, A., Metz, L., &amp; Chintala, S. (2015). Unsupervised representation learning with deep convolutional generative adversarial networks.&nbsp;arXiv preprint arXiv:1511.06434.</p><p>	Arjovsky, M., Chintala, S., &amp; Bottou, L. (2017, July). Wasserstein generative adversarial networks. In&nbsp;International conference on machine learning&nbsp;(pp. 214-223). PMLR.</p><p>	Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., &amp; Courville, A. C. (2017). Improved training of wasserstein gans.&nbsp;Advances in neural information processing systems,&nbsp;30.</p></span>
+                    </p>
+                    
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US">&nbsp;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <span class="a1"><span lang="EN-US" style='font-size: 14.0pt; font-family: "Times New Roman",serif'>
+            <br
+                clear="all" style='page-break-before: always'>
+        </span></span>
+        <table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style='border-collapse: collapse'>
+            <tr style='height: 1.0cm'>
+                <td width="552" colspan="9" style='width: 414.3pt; border: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>5.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>工作计划</span> 
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="151" colspan="2" style='width: 112.9pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>起止日期</span>
+                    </p>
+                </td>
+                <td width="181" colspan="3" style='width: 135.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>主要任务</span>
+                    </p>
+                </td>
+                <td width="80" colspan="2" style='width: 60.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>工作地点</span>
+                    </p>
+                </td>
+                <td width="140" colspan="2" style='width: 105.3pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>联系方式</span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="151" colspan="2" style='width: 112.9pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>2025年3月11日~2025年3月31日 </span>
+                    </p>
+                </td>
+                <td width="181" colspan="3" style='width: 135.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>资料整理、撰写论文</span>
+                    </p>
+                </td>
+                <td width="80" colspan="2" style='width: 60.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>学校 </span>
+                    </p>
+                </td>
+                <td width="140" colspan="2" style='width: 105.3pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <a name=""><span
+                            lang="EN-US" style='font-family: 宋体'>18942804260 </span></a>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="151" colspan="2" style='width: 112.9pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>2025年4月1日~2025年5月25日</span>
+                    </p>
+                </td>
+                <td width="181" colspan="3" style='width: 135.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>完成初稿</span>
+                    </p>
+                </td>
+                <td width="80" colspan="2" style='width: 60.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>学校 </span>
+                    </p>
+                </td>
+                <td width="140" colspan="2" style='width: 105.3pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>18942804260 </span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="151" colspan="2" style='width: 112.9pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>2025年5月26日~2025年6月1日 </span>
+                    </p>
+                </td>
+                <td width="181" colspan="3" style='width: 135.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>修改、定稿</span>
+                    </p>
+                </td>
+                <td width="80" colspan="2" style='width: 60.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>学校 </span>
+                    </p>
+                </td>
+                <td width="140" colspan="2" style='width: 105.3pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>18942804260 </span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="151" colspan="2" style='width: 112.9pt; border: solid windowtext 1.0pt; border-top: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>2025年6月2日~2025年6月8日 </span>
+                    </p>
+                </td>
+                <td width="181" colspan="3" style='width: 135.9pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>答辩</span>
+                    </p>
+                </td>
+                <td width="80" colspan="2" style='width: 60.2pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span
+                            style='font-family: 宋体'>学校 </span>
+                    </p>
+                </td>
+                <td width="140" colspan="2" style='width: 105.3pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="center" style='text-align: center'>
+                        <span lang="EN-US"
+                            style='font-family: 宋体'>18942804260 </span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 60.05pt'>
+                <td width="552" colspan="9" valign="top" style='width: 414.3pt; border-top: none; border-left: solid windowtext 1.0pt; border-bottom: none; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 60.05pt'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>6.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>指导教师或指导小组评价（题目、工作要点、方法、进度及准备情况）：</span>
+                    </p>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 0cm; margin-bottom: .0001pt; line-height: normal; layout-grid-mode: char'>
+                        <span style='font-family: 宋体'>通过 </span>
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="377" colspan="6" style='width: 282.55pt; border-top: none; border-left: solid windowtext 1.0pt; border-bottom: solid windowtext 1.0pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="left" style='text-align: left'>
+                        <span
+                            style='font-family: 宋体'>指导教师（签名）：</span>
+                    </p>
+                </td>
+                <td width="176" colspan="3" style='width: 131.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal">
+                        <span lang="EN-US" style='font-family: 宋体'>
+                            2025年03月31日
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 60.05pt'>
+                <td width="552" colspan="9" valign="top" style='width: 414.3pt; border-top: none; border-left: solid windowtext 1.0pt; border-bottom: none; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 60.05pt'>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 18.0pt; margin-bottom: .0001pt; text-indent: -18.0pt; line-height: normal; layout-grid-mode: char'>
+                        <span lang="EN-US" style='font-family: 宋体'>7.</span><span
+                            lang="EN-US" style='font-size: 7.0pt; font-family: "Times New Roman",serif'> </span><span
+                                style='font-family: 宋体'>对学生开题报告的评审意见（是否同意进入毕业论文或毕业设计撰写阶段）：</span>
+                    </p>
+                    <p class="MsoNormal" style='margin-top: 3.0pt; margin-right: -2.85pt; margin-bottom: 0cm; margin-left: 0cm; margin-bottom: .0001pt; line-height: normal; layout-grid-mode: char'>
+                        <span style='font-family: 宋体'>通过 </span>
+                    </p>
+                </td>
+            </tr>
+            <tr style='height: 1.0cm'>
+                <td width="377" colspan="6" style='width: 282.55pt; border-top: none; border-left: solid windowtext 1.0pt; border-bottom: solid windowtext 1.0pt; border-right: none; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal" align="left" style='text-align: left'>
+                        <span
+                            style='font-family: 宋体'>教学系主任（签字）： </span>
+                    </p>
+                </td>
+                <td width="176" colspan="3" style='width: 131.75pt; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; padding: 0cm 5.4pt 0cm 5.4pt; height: 1.0cm'>
+                    <p class="MsoNormal">
+                        <span lang="EN-US" style='font-family: 宋体'>
+                            2025年04月01日
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <tr height="0">
+                <td width="84" style='border: none'></td>
+                <td width="66" style='border: none'></td>
+                <td width="9" style='border: none'></td>
+                <td width="105" style='border: none'></td>
+                <td width="67" style='border: none'></td>
+                <td width="45" style='border: none'></td>
+                <td width="35" style='border: none'></td>
+                <td width="53" style='border: none'></td>
+                <td width="88" style='border: none'></td>
+            </tr>
+        </table>
+
+        <p class="MsoNormal" align="left" style='text-align: left; line-height: normal'>
+            <span
+                lang="EN-US" style='font-family: 宋体'>&nbsp;</span>
+        </p>
+
+    </div>
+
+</body>
+
+</html>
+
