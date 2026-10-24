@@ -64,7 +64,7 @@ inference: 6.4 ms
 
 postprocess: 4.3 ms
 
-PC 单线程 CPU 模拟（待跑）
+PC 单线程 CPU 模拟
 - 模型：YOLOv8n best.pt
 - 环境：CPU 单线程（OMP/MKL/OpenBLAS 均设为 1），imgsz=640
 - 数据：VisDrone2019-DET-val 验证集，100 张
@@ -81,7 +81,7 @@ PC 单线程 CPU 模拟（待跑）
 - 备注：此为 PC 受限环境模拟，不能直接与 Jetson Nano 真机延迟比较。
 
 ## 目前发现的主要问题
-（1）边缘设备未到位，真机延迟未知。 当前所有速度数字来自 RTX 4060 GPU，不能代表 Jetson Nano。文献实测 Jetson Nano 上 YOLOv8n TensorRT FP16 延迟约 48ms、FPS 约 12–14，但你的具体部署环境（JetPack 版本、TensorRT 配置、是否含 NMS）尚未确定。
+（1）边缘设备未到位。 当前所有速度数字来自 RTX 4060 GPU，不能代表 Jetson Nano。文献实测 Jetson Nano 上 YOLOv8n TensorRT FP16 延迟约 48ms、FPS 约 12–14，但具体部署环境（JetPack 版本、TensorRT 配置、是否含 NMS）尚未确定。
 
 （2）小目标与遮挡是 VisDrone 的核心难点。 YOLOv8n 在 bicycle（mAP50=0.062）、awning-tricycle（0.0985）等小目标类别上表现明显差于 car（0.713）。文献同样指出 VisDrone 存在“小目标像素占比低、特征表示不足、遮挡下性能显著下降”的问题，且极端遮挡场景是现有轻量化模型的共同失败模式。
 
