@@ -65,7 +65,20 @@ inference: 6.4 ms
 postprocess: 4.3 ms
 
 PC 单线程 CPU 模拟（待跑）
-尚未执行 benchmark_pc.py，延迟数字待填。
+- 模型：YOLOv8n best.pt
+- 环境：CPU 单线程（OMP/MKL/OpenBLAS 均设为 1），imgsz=640
+- 数据：VisDrone2019-DET-val 验证集，100 张
+- 协议：预热 10 次，测量 100 次，端到端计时含预处理+推理+后处理
+- 结果：
+  | 指标 | 均值 | 占比 |
+  |------|------|------|
+  | 端到端总延迟 | 42.15 ms | 100% |
+  | 预处理 | 1.29 ms | 3.1% |
+  | 推理 | 30.58 ms | 72.5% |
+  | 后处理 | 0.75 ms | 1.8% |
+  | 平均 FPS | 23.72 | — |
+- 结论：瓶颈在推理，不在前后处理。真机 profile 需验证此分布是否成立。
+- 备注：此为 PC 受限环境模拟，不能直接与 Jetson Nano 真机延迟比较。
 
 ## 目前发现的主要问题
 （1）边缘设备未到位，真机延迟未知。 当前所有速度数字来自 RTX 4060 GPU，不能代表 Jetson Nano。文献实测 Jetson Nano 上 YOLOv8n TensorRT FP16 延迟约 48ms、FPS 约 12–14，但你的具体部署环境（JetPack 版本、TensorRT 配置、是否含 NMS）尚未确定。
